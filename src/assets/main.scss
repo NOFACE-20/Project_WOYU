@@ -1,0 +1,381 @@
+.wings{
+    color: rgb(252, 0, 0);
+}
+
+.navbar{
+    background-color: black;
+    margin-top: 0;
+    .st{
+        .head{
+            color: red;
+        }
+        .collapse{
+            background-color: black;
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color: red;
+                        font-weight: bold;
+                        padding-top: 15px;
+                    }
+                }
+                .drpit{
+                    .dropdown-menu{
+                        background-color: red;
+                        margin-left: -20px;
+                        .dropdown-item{
+                            background-color: red;
+                            color: black; 
+                            font-weight: bold;  
+                        }
+                        
+                        .hr{
+                            color: black;
+                            margin: 0 0;
+                        }
+                    }
+                }
+            }
+            .d-flex{
+                .word{
+                    background-color: white;
+                    color: black;
+                    border: black 2px solid;
+                }
+                .but{
+                    color: black;
+                    border: 2px red solid;
+                    border-radius: 7px;
+                    background-color: red;
+                    font-weight: 500;
+                    font-size: 17px;
+                }
+            }  
+        }
+    }
+}
+
+
+            // FLIGHT
+.con1{
+    padding-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+    div{
+        font-size: 30px;
+        font-weight: bolder;
+        color: red;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+            // FOOTER
+.foot{
+    background-color: black;
+    color: red;
+    height: 320px;
+    .row{
+        padding: 20px;
+        .f{
+            font-size: 40px;
+            line-height: 280px;
+            font-weight: bolder;
+            font-style: italic;
+            text-align: center;
+        }
+        .s{
+            .second{
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+                padding-bottom: 20px;
+                margin-top: 50px;
+            }
+            a{
+                text-decoration: none;
+                color: red;
+                line-height: 30px;
+                margin-left: 173px;
+            }
+        }
+        .t{
+            .suru{
+                .third{
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-left: 100px;
+                    padding-bottom: 20px;
+                    margin-top: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: red;
+                    line-height: 30px;
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}
+.lastfoot{
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 50px;
+    a{
+        color: white;
+        font-size: 24px;
+        padding: 10px;
+    }
+    span{
+        color: white;
+        margin-left: 800px;
+        font-size: 12px;
+    }
+}
+
+
+            // INFO
+.stat{
+    background-color: rgb(231, 231, 230);
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+        padding: 40px 0 20px 80px;
+    }            
+    .drop{
+        margin-bottom: 50px;
+        .dropdown{
+            line-height: 8px;
+            ul{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .dropdown{
+            line-height: 8px;
+            ul{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .but{
+            button{
+                color: black;
+                background-color: red;
+                border-radius: 15px;
+                border-color: rgba(0, 0, 0, 0);
+            }
+        }
+    }
+    .container{
+        margin-bottom: 20px;
+        .sn{
+            background-color: red;
+            padding: 10px;
+            color: black;
+            font-weight: bold;
+            span{
+                padding: 40px;
+            }
+        }
+        .li{
+            padding: 10px;
+            span{
+                padding: 40px;
+            }
+        }
+    }
+    
+}
+
+
+            // Sch
+.sch{
+    background-color:rgb(231, 231, 230);
+    .fsch{
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+        margin-left: 50px;
+    }
+    .drop{
+        margin-bottom: 50px;
+        .dropdown{
+            line-height: 8px;
+            ul{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .dropdown{
+            line-height: 8px;
+            ul{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .but{
+            button{
+                color: black;
+                background-color: red;
+                border-radius: 15px;
+                border-color: rgba(0, 0, 0, 0);
+            }
+        }
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 1rem;
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td{
+            border: 1px solid gray;
+            text-align: left;
+            padding: 8px;
+        }
+        th{
+            background-color: red;
+            color: black;
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+        td{
+            background-color: white;
+            color: black;
+            font-size: 16px;
+        }
+    }
+}
+
+
+            // HOTEL
+.hotelall{
+    background-color: rgb(231, 231, 230);
+    .hotel{
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+        margin: 0 0 20px 100px;
+        padding-top: 20px;
+    }
+    .container{
+        .row{
+            .col-4{
+                .card{
+                    margin-bottom: 25px;
+                    .nam{
+                        font-size: 20px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: black;
+                        padding: 10px 0 0 10px;
+                    }
+                    .card-add{
+                        padding-left: 10px;
+                    }
+                    .card-star{
+                        padding-left: 10px;
+                        color: rgb(214, 214, 22);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+        // Hoteldet
+.vitra{
+    background-color:rgb(231, 231, 230) ;
+    .topnam{
+        font-size: 30px;
+        color: red;
+        font-weight: bold;
+        padding-top: 20px;
+        text-align: center;
+    }
+        .adph{
+            font-size: 17px;
+            margin-left: 525px;
+        }
+    .phot{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .blah{
+        width: 1100px;
+        margin: 40px 0 0 120px;
+        padding-bottom: 40px;
+    }
+}
+
+        // TRAVEL
+.main{
+    background-color:rgb(231, 231, 230);
+    .head{
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+        margin: 0 0 20px 100px;
+        padding-top: 20px;
+    }
+    .container{
+        margin-top: 50px;
+        .row{
+            .col-4{
+                .card{
+                    margin-bottom: 30px;
+                    img{
+                        padding-left: 4px;
+                    }
+                    .nam{
+                        font-size: 16px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: black;
+                        padding: 10px 0 10px 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+        // TRAVEL DETAILS
+.tour{
+    background-color: rgb(231, 231, 230);
+    .heading{
+        font-size: 30px;
+        color: red;
+        font-weight: bold;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .phot{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .blah{
+        width: 1000px;
+        margin: 40px 0 0 160px;
+        padding-bottom: 40px;
+    }
+}
